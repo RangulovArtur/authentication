@@ -1,0 +1,213 @@
+body {
+	padding: 0;
+	margin: 0;
+	/*background: hsl(219,53%,30%);*/
+	background: #f5f5f5;
+	font-family: 'Open Sans', sans-serif;
+}
+.wrapper {
+	font-family: 'Open Sans', sans-serif;
+	min-width: 1200px;
+	max-width: 1400px;
+	width: 70%;
+	margin: auto;
+	text-align: center;
+	/*background: hsl(219,53%,30%);*/
+	background: #f5f5f5;
+	/*color: hsl(50,80%,50%);*/
+	color: #444;
+	padding-bottom: 20px;
+}
+ul {
+	list-style: none;
+}
+.left_bar {
+	position: relative;
+}
+.left_bar ul li {
+	display: inline-block;
+}
+#content {
+	display: inline-block;
+	border: 1px solid hsl(240,70%,30%);
+	padding: 10px;
+	overflow: scroll;
+	max-height: 400px;
+}
+nav ul li{
+	display: inline-block;
+}
+.enter {
+	height: 30px;
+	background: hsl(214, 66%, 63%);
+	color: #24324D;
+	border: 1px solid #ccc;
+	width: 183px;
+	font-weight: bold;
+	border-radius: 5px;
+}
+button {
+	height: 30px;
+	/*background: hsl(240,70%,60%);*/
+	background-color: #284;
+	color: #fff;
+	/*border: 1px solid hsl(240,70%,30%);*/
+	border-radius: 3px;
+  font: bold 14px/1 "Segoe UI", Helvetica, Arial;
+  text-transform: uppercase;
+  border: none;
+
+}
+button:hover {
+	background-color: #173;
+}
+.right_bar {
+	width: 60%;
+	margin: auto;
+}
+.right_bar ul li button{
+	width: 100%;
+	display: block;
+	margin: 2px;
+}
+.add_block {
+	border: 1px solid #ccc;
+	padding: 10px;
+	width: 30%;
+	margin: auto;
+	/*background: hsl(240,70%,40%);*/
+	background-color: #bbb;
+}
+.add_block input, .add_block select{
+	width: 98%;
+	padding: 0;
+	height: 30px;
+
+}
+.add_block input[type='button']{
+	height: 30px;
+	/*background: hsl(214,20%,80%);*/
+	background-color: #aaa;
+	color: #000;
+	border: 1px solid #fff;
+	font: bold 14px/1 "Segoe UI", Helvetica, Arial;
+  text-transform: uppercase;
+}
+.add_block input[type='button']:hover{
+	height: 30px;
+	/*background: hsl(214,20%,75%);*/
+	background-color: #bbb;
+	color: #000;
+	border: 1px solid #fff;
+	cursor: pointer;
+}
+.selected {
+	background: hsl(100,70%,70%);
+}
+table.result_req1 {
+	margin: auto;
+}
+.auth {
+	/*background: hsl(200,70%,30%);*/
+	background: #bbb;
+}
+.block_a {
+	position: relative;
+}
+.auth_block {
+	display: inline-block;
+	position: absolute;
+	width: 250px;
+	left: 37%;
+	top: 40px;
+	padding: 10px;
+	z-index: 999;
+	background: hsl(200,70%,30%);
+	border-radius: 15px;
+
+}
+.auth_block input{
+	border-radius: 5px;
+	padding: 5px;
+}
+.vhod{
+	font-weight: bolder;
+	font-size: 20px;
+
+}
+.registr {
+	display: block;
+	color: #fff;
+}
+.registr:hover {
+	text-decoration: none;
+}
+.block_a span {
+	position: absolute;
+	right: 10px;
+	top: 0px;
+	font-size: 9px;
+	cursor: pointer;
+}
+.block_a span:hover {
+	color: #fff;
+}
+button {
+	cursor: pointer;
+}
+.req_3_obr {
+	width: 90% !important;
+	background: hsl(240,70%,30%);
+	display: inline-block !important;
+}
+select[name=client], select[name=master] {
+	height: 40px;
+	width: 300px;
+	margin: 10px;
+}
+.req_desc {
+	margin-bottom: 10px;
+	border: 1px solid hsl(240,70%,30%);
+	width: 60%;
+	margin: auto;
+	background: hsl(240,70%,40%);
+}
+a{
+	cursor: pointer;
+}
+a.out{
+	margin-left: 15px;
+	/*color: hsl(50,80%,50%);*/
+	color: #000;
+	background-color: #bbb;
+	border-radius: 3px;
+	font: bold 14px/1 "Segoe UI", Helvetica, Arial;
+  text-transform: uppercase;
+  border: none;
+  padding: 10px;
+
+}
+a.out:hover{
+	background: #aaa;
+}
+.forgot_pass{
+color: white;
+font-size: 12px;
+margin-top: 15px;
+}
+
+.authorization p{
+	text-align: center;
+	font-weight: bold;
+	color: #222;
+	margin: 20px auto;
+	font: bold 14px/1 "Segoe UI", Helvetica, Arial;
+	text-transform: uppercase;
+}
+
+.authorization button{
+	margin: 0 auto;
+	width: 200px;
+	display: block;
+	font-weight: bold;
+}
